@@ -43,7 +43,7 @@ section {
 }
 
 .section-bg5 {
-    background-image: url(../images/e.jpg); /* 5枚目用の画像パスを指定してください */
+    background-image: url(../images/e.jpg);
     background-color: rgba(112, 66, 20, 0.5);
     background-blend-mode: multiply;
 }
