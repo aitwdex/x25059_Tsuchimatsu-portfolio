@@ -12,8 +12,10 @@ body {
 .title {
     font-family:'Bodoni Moda SC', cursive;
     font-size: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-bottom: 3px solid #fff;
 }
 
 .container {
@@ -64,4 +66,20 @@ section {
     background-image: url(../images/e.jpg);
     background-color: rgba(112, 66, 20, 0.5);
     background-blend-mode: multiply;
+}
+
+.subtitle {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.desc {
+    font-family:'Noto Sans JP',sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
