@@ -264,6 +264,91 @@ section {
     text-align: center;
 }
 
+.section-bg5 {
+    background-image: url(../images/e.jpg);
+    background-color: rgba(112, 66, 20, 0.5);
+    background-blend-mode: multiply;
+    position: relative;
+    text-align: center;
+}
+
+.contact-title {
+    font-family: 'Bodoni Moda SC', cursive;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-bottom: 3px solid #fff;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.contact-email {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 0.05em;
+}
+
+.contact-message {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.contact-sns {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.contact-sns-link {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-sns-link:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+}
+
+.contact-insta {
+    background-image: url(../images/instagram.svg);
+}
+
+.contact-tiktok {
+    background-image: url(../images/tiktok.svg);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    padding: 3rem 0 1.5rem;
+}
+
+.footer p {
+    font-family: 'Bodoni Moda SC', cursive;
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
 
 @media (max-width: 700px) {
     p {
