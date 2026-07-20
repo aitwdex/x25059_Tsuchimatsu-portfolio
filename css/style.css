@@ -68,7 +68,7 @@ section {
 }
 
 .hero {
-    background-image: url(../images/a.jpeg);
+    background-image: url(../images/a.JPEG);
     text-align: center;
     padding-top: 10vh;
     background-color: rgba(0, 0, 0, 0.4);
@@ -76,7 +76,7 @@ section {
 }
 
 .section-bg2 {
-    background-image: url(../images/b.jpg);
+    background-image: url(../images/b.JPG);
     background-color: rgba(40, 50, 70, 0.5);
     background-blend-mode: overlay;
     text-align: center;
@@ -90,7 +90,7 @@ section {
 }
 
 .section-bg4 {
-    background-image: url(../images/d.jpg);
+    background-image: url(../images/d.JPG);
     background-color: rgba(40, 50, 70, 0.5);
     background-blend-mode: multiply;
 }
