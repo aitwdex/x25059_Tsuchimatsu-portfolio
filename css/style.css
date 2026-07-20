@@ -382,23 +382,123 @@ section {
     p {
         padding: 0 1rem;
     }
-    p,
-    .menu-list li {
+
+    .global-nav {
+        gap: 1rem;
+        padding: 1rem 0;
+        flex-wrap: wrap;
+    }
+
+    .global-nav a {
         font-size: 1rem;
     }
+
     .hero {
-        padding-top: 12vh;
+        padding-top:15vh;
     }
-    .title {
-        font-size: 4rem;
+
+    .title, .profile-title, .works-title, .skills-title, .contact-title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        white-space: normal;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .desc {
+        font-size: 1rem;
+    }
+
+    .kanji {
+        font-size: 3rem;
+    }
+
+    .furigana {
+        font-size: 0.9rem;
+    }
+
+    .profile-info {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-activity {
+        font-size: 1rem;
+    }
+
+    .works-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
     }
 
     .works-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 1rem 1rem 2rem 1rem;
         gap: 1.5rem;
     }
-    .work-card {
-        width: 85%;
+
+    .works-container::-webkit-scrollbar {
+        display: none;
     }
-}
+
+    .work-card {
+        width: 75%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .sns-icon {
+        width: 50px;
+        height: 50px;
+        top: -15px;
+        left: -15px;
+    }
+
+    .skills-logo-container {
+        margin-bottom: 2rem;
+    }
+
+    .skills-list {
+        gap: 2rem;
+    }
+
+    .skill-item {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .contact-email {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        word-break: break-all;
+    }
+
+    .contact-message {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .contact-sns {
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .contact-sns-link {
+        width: 55px;
+        height: 55px;
+    }
+
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+    }
+    }
