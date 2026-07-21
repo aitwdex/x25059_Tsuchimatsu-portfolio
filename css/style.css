@@ -76,7 +76,7 @@ section {
 }
 
 .section-bg2 {
-    background-image: url(../images/b2.jpg);
+    background-image: url(../images/b.JPG);
     background-color: rgba(40, 50, 70, 0.5);
     background-blend-mode: overlay;
     text-align: center;
@@ -90,7 +90,7 @@ section {
 }
 
 .section-bg4 {
-    background-image: url(../images/d4.jpg);
+    background-image: url(../images/d.JPG);
     background-color: rgba(40, 50, 70, 0.5);
     background-blend-mode: multiply;
 }
